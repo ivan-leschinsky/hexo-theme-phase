@@ -62,6 +62,7 @@ photos:
 - photo_2_url.jpg
 ```
 
-
+## Bug Fixes 
+* Fixed issue with fancybox for pages (non-posts)
 
 
