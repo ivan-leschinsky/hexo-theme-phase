@@ -1,6 +1,12 @@
 menu:
   Home: /
   Archives: /archives
+menu_pages:
+  # Syntax
+  # Page_Name: page_name (e.g. if the "page" is being generated from test.md, then it should be:
+  # Page: test.html
+  # menu_pages is configured to automatically use the ROOT variable
+  Page: test.html
 
 addthis:
   enable: true
