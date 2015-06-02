@@ -64,5 +64,5 @@ photos:
 
 ## Bug Fixes 
 * Fixed issue with fancybox for pages (non-posts)
-
+* Add some logic to deal with root folder + menu item hyper references (however appears to cause extra slashes in url?)
 
