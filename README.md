@@ -1,3 +1,5 @@
+# DEMO: http://lbkmono.github.io/hexo-theme-phase/
+
 # Phase
 Feel the flow of time with Phase, the most beautiful theme for [Hexo].
 
@@ -64,5 +66,5 @@ photos:
 
 ## Bug Fixes 
 * Fixed issue with fancybox for pages (non-posts)
-* Add some logic to deal with root folder + menu item hyper references (however appears to cause extra slashes in url?)
+* Add some logic to deal with root folder + menu item hyper references
 
