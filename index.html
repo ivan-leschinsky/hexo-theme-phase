@@ -20,11 +20,10 @@
   <header id="header" class="inner"><nav>
   <ul>
     
-      <li><a href="/">Home</a></li>
+      <li><a href="/hexo-theme-phase//">Home</a></li>
     
-      <li><a href="/archives">Archives</a></li>
+      <li><a href="/hexo-theme-phase//archives">Archives</a></li>
     
-	    
       <li><a href="/hexo-theme-phase/test.html">Page</a></li>
     
   </ul>
@@ -129,46 +128,6 @@
   <header>
     
   
-    <h1 class="title"><a href="/hexo-theme-phase/2015/05/02/hw3/">Test Post for Testing Pagination</a></h1>
-  
-
-    <time datetime="2015-05-02T10:00:00.000Z">
-  <span class="day">2</span><span class="month">May</span>
-</time>
-  </header>
-  <div class="entry-content">
-    
-      <p>Test Post for testing pagination</p>
-
-    
-    
-    <footer class="meta">
-      
-      
-      
-    </footer>
-    
-  </div>
-  
-</article>
-
-  <article class="post">
-  
-    <div class="gallery">
-  <div class="photoset">
-    
-      <img src="">
-    
-  </div>
-  <div class="control">
-    <div class="prev"></div>
-    <div class="next"></div>
-  </div>
-</div>
-  
-  <header>
-    
-  
     <h1 class="title"><a href="/hexo-theme-phase/2015/04/01/hw1/">Test Post for Testing Pagination</a></h1>
   
 
@@ -209,22 +168,79 @@
   <header>
     
   
-    <h1 class="title"><a href="/hexo-theme-phase/2014/05/04/hw5/">Test Post for Testing Pagination</a></h1>
+    <h1 class="title"><a href="/hexo-theme-phase/2014/05/01/hello-world/">Hello World</a></h1>
   
 
-    <time datetime="2014-05-04T10:00:00.000Z">
-  <span class="day">4</span><span class="month">May</span>
+    <time datetime="2014-05-01T10:00:00.000Z">
+  <span class="day">1</span><span class="month">May</span>
 </time>
   </header>
   <div class="entry-content">
     
-      <p>Test Post for testing pagination</p>
+      <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
     
     
     <footer class="meta">
       
       
+      
+    </footer>
+    
+  </div>
+  
+</article>
+
+  <article class="post">
+  
+    <div class="gallery">
+  <div class="photoset">
+    
+      <img src="">
+    
+  </div>
+  <div class="control">
+    <div class="prev"></div>
+    <div class="next"></div>
+  </div>
+</div>
+  
+  <header>
+    
+  
+    <h1 class="title"><a href="/hexo-theme-phase/2012/01/08/hw3/">Code</a></h1>
+  
+
+    <time datetime="2012-01-08T20:58:17.000Z">
+  <span class="day">8</span><span class="month">Jan</span>
+</time>
+  </header>
+  <div class="entry-content">
+    
+      <p>Normal code block:</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">'http'</span>);</span><br><span class="line">http.createServer(<span class="function"><span class="keyword">function</span> (<span class="params">req, res</span>) </span>&#123;</span><br><span class="line">  res.writeHead(<span class="number">200</span>, &#123;<span class="string">'Content-Type'</span>: <span class="string">'text/plain'</span>&#125;);</span><br><span class="line">  res.end(<span class="string">'Hello World\n'</span>);</span><br><span class="line">&#125;).listen(<span class="number">1337</span>, <span class="string">'127.0.0.1'</span>);</span><br><span class="line"><span class="built_in">console</span>.log(<span class="string">'Server running at http://127.0.0.1:1337/'</span>);</span><br></pre></td></tr></table></figure>
+<p>Code block:</p>
+<figure class="highlight js"><figcaption><span>Javascript Array Syntax</span><a href="http://j.mp/pPUUmW" target="_blank" rel="external">MDN Documentation</a></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> arr1 = <span class="keyword">new</span> <span class="built_in">Array</span>(arrayLength);</span><br><span class="line"><span class="keyword">var</span> arr2 = <span class="keyword">new</span> <span class="built_in">Array</span>(element0, element1, ..., elementN);</span><br></pre></td></tr></table></figure>
+<p>Gist tag:</p>
+<script src="//gist.github.com/996818.js"></script>
+<p>jsFiddle:</p>
+<iframe width="100%" height="300" src="http://jsfiddle.net/ccWP7/embedded/js,resources,html,css,result/light" frameborder="0" allowfullscreen></iframe>
+    
+    
+    <footer class="meta">
+      
+      
+  <div class="tags">
+<a href="/hexo-theme-phase/tags/dolor/">dolor</a></div>
+
       
     </footer>
     

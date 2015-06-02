@@ -3,11 +3,14 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Test Post for Testing Pagination | Hexo</title>
+  <title>FAQ | Hexo</title>
   <meta name="author" content="John Doe">
 
   
-  <meta name="description" content="Test Post for testing pagination">
+  <meta name="description" content="What’s different between Octopress version and Hexo version?
+Octopress version doesn’t have photo and link layout.
+Some little difference.
+Octopress i">
   
   
 
@@ -47,22 +50,44 @@
   <header>
     
   
-    <h1 class="title">Test Post for Testing Pagination</h1>
+    <h1 class="title">FAQ</h1>
   
 
-    <time datetime="2015-04-01T10:00:00.000Z">
-  <span class="day">1</span><span class="month">Apr</span>
+    <time datetime="2011-03-18T20:56:36.000Z">
+  <span class="day">18</span><span class="month">Mar</span>
 </time>
   </header>
   <div class="entry-content">
     
-      <p>Test Post for testing pagination<br><div class="video-container"><iframe src="//www.youtube.com/embed/9bZkp7q19f0" frameborder="0" allowfullscreen></iframe></div></p>
+      <h3 id="What’s_different_between_Octopress_version_and_Hexo_version?">What’s different between Octopress version and Hexo version?</h3><ul>
+<li>Octopress version doesn’t have <code>photo</code> and <code>link</code> layout.</li>
+<li>Some little difference.</li>
+<li><del>Octopress is slower than Hexo.</del></li>
+</ul>
+<h3 id="How_to_edit_menu?">How to edit menu?</h3><ul>
+<li>Octopress: Edit <code>source/_includes/custom/navigation.html</code>.</li>
+<li>Hexo: Edit <code>menu</code> parameter in <code>_config.yml</code>.</li>
+</ul>
+<h3 id="How_to_disable_Fancybox?">How to disable Fancybox?</h3><p>Running Phase Beam and Fancybox at same time may be difficult to Chrome, so you can choice to disable it.</p>
+<ul>
+<li>Octopress: Delete <code>source/_includes/after_footer.html</code> in line 1.</li>
+<li>Hexo: Edit <code>fancybox</code> parameter to <code>false</code> in <code>_config.yml</code>.</li>
+</ul>
+<h3 id="How_to_disable_Phase_Beam?">How to disable Phase Beam?</h3><p>I think it is really meaningless to disable Phase Beam when using Phase. Phase without Phase Beam is just Slash with black background, nothing special and less feature than Slash.</p>
+<ul>
+<li>Octopress: Delete <code>source/_includes/after_footer.html</code> in line 2.</li>
+<li>Hexo: Delete the last line of <code>layout/_partial/after_footer.ejs</code>.</li>
+</ul>
+<p>If you have any questions, send me an <a href="https://github.com/tommy351/hexo-theme-phase/issues" target="_blank" rel="external">issue</a>.</p>
 
     
     
     <footer class="meta">
       
       
+  <div class="tags">
+<a href="/hexo-theme-phase/tags/dolor/">dolor</a></div>
+
       
     </footer>
     

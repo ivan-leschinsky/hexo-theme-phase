@@ -20,11 +20,10 @@
   <header id="header" class="inner"><nav>
   <ul>
     
-      <li><a href="/">Home</a></li>
+      <li><a href="/hexo-theme-phase//">Home</a></li>
     
-      <li><a href="/archives">Archives</a></li>
+      <li><a href="/hexo-theme-phase//archives">Archives</a></li>
     
-	    
       <li><a href="/hexo-theme-phase/test.html">Page</a></li>
     
   </ul>
@@ -47,30 +46,44 @@
   <header>
     
   
-    <h1 class="title"><a href="/hexo-theme-phase/2014/05/01/hello-world/">Hello World</a></h1>
+    <h1 class="title"><a href="/hexo-theme-phase/2011/03/18/hw5/">FAQ</a></h1>
   
 
-    <time datetime="2014-05-01T10:00:00.000Z">
-  <span class="day">1</span><span class="month">May</span>
+    <time datetime="2011-03-18T20:56:36.000Z">
+  <span class="day">18</span><span class="month">Mar</span>
 </time>
   </header>
   <div class="entry-content">
     
-      <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+      <h3 id="What’s_different_between_Octopress_version_and_Hexo_version?">What’s different between Octopress version and Hexo version?</h3><ul>
+<li>Octopress version doesn’t have <code>photo</code> and <code>link</code> layout.</li>
+<li>Some little difference.</li>
+<li><del>Octopress is slower than Hexo.</del></li>
+</ul>
+<h3 id="How_to_edit_menu?">How to edit menu?</h3><ul>
+<li>Octopress: Edit <code>source/_includes/custom/navigation.html</code>.</li>
+<li>Hexo: Edit <code>menu</code> parameter in <code>_config.yml</code>.</li>
+</ul>
+<h3 id="How_to_disable_Fancybox?">How to disable Fancybox?</h3><p>Running Phase Beam and Fancybox at same time may be difficult to Chrome, so you can choice to disable it.</p>
+<ul>
+<li>Octopress: Delete <code>source/_includes/after_footer.html</code> in line 1.</li>
+<li>Hexo: Edit <code>fancybox</code> parameter to <code>false</code> in <code>_config.yml</code>.</li>
+</ul>
+<h3 id="How_to_disable_Phase_Beam?">How to disable Phase Beam?</h3><p>I think it is really meaningless to disable Phase Beam when using Phase. Phase without Phase Beam is just Slash with black background, nothing special and less feature than Slash.</p>
+<ul>
+<li>Octopress: Delete <code>source/_includes/after_footer.html</code> in line 2.</li>
+<li>Hexo: Delete the last line of <code>layout/_partial/after_footer.ejs</code>.</li>
+</ul>
+<p>If you have any questions, send me an <a href="https://github.com/tommy351/hexo-theme-phase/issues" target="_blank" rel="external">issue</a>.</p>
 
     
     
     <footer class="meta">
       
       
+  <div class="tags">
+<a href="/hexo-theme-phase/tags/dolor/">dolor</a></div>
+
       
     </footer>
     
